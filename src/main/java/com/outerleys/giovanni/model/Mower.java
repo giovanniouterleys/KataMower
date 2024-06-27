@@ -91,16 +91,39 @@ public class Mower {
     /*
      * Move the mower forward
      */
-    public void moveForward(int maxX, int maxY)
-    {
-        switch (orientation)
-        {
-            case 'N': if(y < maxY) y++; break;
-            case 'E': if(x < maxX) x++; break;
-            case 'S': if(y > 0) y--; break;
-            case 'W': if(x > 0) x--; break;
+    public void moveForward(int maxX, int maxY) {
+        switch (orientation) {
+            case 'N':
+                if (y < maxY) {
+                    y++;
+                } else {
+                    System.err.println("Attempt to move out of bounds at " + this);
+                }
+                break;
+            case 'E':
+                if (x < maxX) {
+                    x++;
+                } else {
+                    System.err.println("Attempt to move out of bounds at " + this);
+                }
+                break;
+            case 'S':
+                if (y > 0) {
+                    y--;
+                } else {
+                    System.err.println("Attempt to move out of bounds at " + this);
+                }
+                break;
+            case 'W':
+                if (x > 0) {
+                    x--;
+                } else {
+                    System.err.println("Attempt to move out of bounds at " + this);
+                }
+                break;
         }
     }
+
 
     // Override the toString method
     @Override

@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f98fdf01-e60d-45ad-804f-b7f9fd311155" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/outerleys/giovanni/model/LawnTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/outerleys/giovanni/controller/MowerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/movements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/outerleys/giovanni/model/MowerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/outerleys/giovanni/model/MowerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/outerleys/giovanni/model/Mower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/outerleys/giovanni/model/Mower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/outerleys/giovanni/model/Mower.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/outerleys/giovanni/model/Mower.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +40,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.KataMower.executor": "Run",
+    "JUnit.LawnTest.executor": "Run",
+    "JUnit.MowerTest.executor": "Run",
     "JUnit.MowerTest.testMoveForward.executor": "Run",
     "JUnit.MowerTest.testTurnLeft.executor": "Run",
     "JUnit.MowerTest.testTurnRight.executor": "Run",
@@ -56,9 +60,14 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.MowerTest">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.KataMower">
     <configuration name="KataMower" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="com.outerleys.giovanni.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.outerleys.giovanni.controller.MowerController" />
       <module name="KataMower" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -89,6 +98,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.outerleys.giovanni.model" />
       <option name="MAIN_CLASS_NAME" value="com.outerleys.giovanni.model.MowerTest" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -176,7 +186,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719501280175</updated>
-      <workItem from="1719501281178" duration="1004000" />
+      <workItem from="1719501281178" duration="2842000" />
     </task>
     <servers />
   </component>
