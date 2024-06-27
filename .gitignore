@@ -1,7 +1,11 @@
 # GitIgnore for Java project from https://github.com/github/gitignore/blob/main/Java.gitignore
 # Compiled class file
 *.class
+# Target folder
+/target/
 
+# Intelij idea
+.idea/
 # Log file
 *.log
 
