@@ -11,6 +11,6 @@ This Java project is designed to automate the control of lawnmowers for handling
 
 # Project structure
 - `src/`: Source files for the project
-    - `main/java/com/outerleys/giovanni/controller`: Contains the MovwerController which reads input and controls the mower based on the command. 
+    - `main/java/com/outerleys/giovanni/controller`: Contains the MowerController which reads input and controls the mower based on the command. Also contains the Main class to run the program.
     - `main/java/com/outerleys/giovanni/model/`: Contains Mower and Lawn classes that represent the mower and the lawn. 
 - `test/`: Test files for the project.     
