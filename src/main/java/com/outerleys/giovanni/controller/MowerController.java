@@ -14,7 +14,7 @@ public class MowerController {
         InputStream inputStream = MowerController.class.getClassLoader().getResourceAsStream("movements.txt");
 
         if (inputStream == null) {
-            System.err.println("Error: movements.txt file not found.");
+            System.err.println("Error movements.txt file not found.");
             return;
         }
 
