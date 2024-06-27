@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f98fdf01-e60d-45ad-804f-b7f9fd311155" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/outerleys/giovanni/model/Lawn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/outerleys/giovanni/model/Mower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/outerleys/giovanni/model/MowerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/outerleys/giovanni/model/LawnTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/outerleys/giovanni/model/MowerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/outerleys/giovanni/model/MowerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +38,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.KataMower.executor": "Run",
+    "JUnit.MowerTest.testMoveForward.executor": "Run",
+    "JUnit.MowerTest.testTurnLeft.executor": "Run",
+    "JUnit.MowerTest.testTurnRight.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
@@ -55,7 +56,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.MowerTest">
     <configuration name="KataMower" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.outerleys.giovanni.Main" />
       <module name="KataMower" />
@@ -63,6 +64,101 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LawnTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KataMower" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.outerleys.giovanni.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.outerleys.giovanni.model" />
+      <option name="MAIN_CLASS_NAME" value="com.outerleys.giovanni.model.LawnTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MowerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KataMower" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.outerleys.giovanni.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.outerleys.giovanni.model" />
+      <option name="MAIN_CLASS_NAME" value="com.outerleys.giovanni.model.MowerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MowerTest.testMoveForward" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KataMower" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.outerleys.giovanni.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.outerleys.giovanni.model" />
+      <option name="MAIN_CLASS_NAME" value="com.outerleys.giovanni.model.MowerTest" />
+      <option name="METHOD_NAME" value="testMoveForward" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MowerTest.testTurnLeft" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KataMower" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.outerleys.giovanni.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.outerleys.giovanni.model" />
+      <option name="MAIN_CLASS_NAME" value="com.outerleys.giovanni.model.MowerTest" />
+      <option name="METHOD_NAME" value="testTurnLeft" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MowerTest.testTurnRight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KataMower" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.outerleys.giovanni.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.outerleys.giovanni.model" />
+      <option name="MAIN_CLASS_NAME" value="com.outerleys.giovanni.model.MowerTest" />
+      <option name="METHOD_NAME" value="testTurnRight" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.KataMower" />
+      <item itemvalue="JUnit.LawnTest" />
+      <item itemvalue="JUnit.MowerTest" />
+      <item itemvalue="JUnit.MowerTest.testMoveForward" />
+      <item itemvalue="JUnit.MowerTest.testTurnLeft" />
+      <item itemvalue="JUnit.MowerTest.testTurnRight" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MowerTest" />
+        <item itemvalue="JUnit.LawnTest" />
+        <item itemvalue="JUnit.MowerTest.testMoveForward" />
+        <item itemvalue="JUnit.MowerTest.testTurnRight" />
+        <item itemvalue="JUnit.MowerTest.testTurnLeft" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -80,7 +176,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719501280175</updated>
-      <workItem from="1719501281178" duration="706000" />
+      <workItem from="1719501281178" duration="1004000" />
     </task>
     <servers />
   </component>
